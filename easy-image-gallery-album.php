@@ -71,7 +71,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 * @since 1.0.0
 		 */
 		public function change_image_size() {
-			return 'large';
+			return 'medium';
 		}
 
 		/**
