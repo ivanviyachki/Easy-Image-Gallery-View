@@ -80,8 +80,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 * @since 1.0.0
 		 */
 		public function load_album_scripts() {
-			//wp_enqueue_script( $this->addon_slug, EIG_MOSAIC_URL . 'assets/js/jquery.mosaic.min.js', array( 'jquery' ), EIG_MOSAIC_VERSION, false );
-			//wp_enqueue_style( $this->addon_slug, EIG_MOSAIC_URL . 'assets/css/jquery.mosaic.min.css', '', EIG_MOSAIC_VERSION, 'screen' );
+			wp_enqueue_style( $this->addon_slug, EIG_MOSAIC_URL . 'assets/css/album_style.css', '', EIG_ALBUM_VERSION, 'screen' );
 		}
 
 		/**
