@@ -1,0 +1,32 @@
+.entry-content > * {
+  margin-bottom: 0.73em;
+}
+
+.easy-image-gallery-album-master {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.73em;
+}
+
+.easy-image-gallery-album-master .eig-popup {
+  height: 5.5em;
+  background: #fff;
+}
+
+.easy-image-gallery-album-master .eig-popup:hover {
+  opacity: 0.5;
+}
+
+.easy-image-gallery-album-master .eig-popup img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.easy-image-gallery-album-master .eig-popup .icon-view {
+  display: none;
+}
+
+.easy-image-gallery-album-master .eig-popup .overlay {
+  display: none;
+}
